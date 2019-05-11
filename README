@@ -1,0 +1,7 @@
+# mRemoteNG Decrypt
+
+Use for Decrypt mRemoteNG v1.76 Config.
+
+Usage: `java -jar <JAR FILE> <ENCRYPTED TEXT> [Custom Password]`
+
+The custom password is in: `%appdata/mRemoteNg/<Most recently modified folder>/User.config`
