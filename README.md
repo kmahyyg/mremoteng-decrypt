@@ -12,9 +12,9 @@ org.apache.commons.codec
 
 org.bouncycastle
 
-## PR welcome
+## Python Script
 
-I tried so hard to make a version in Python 3, but failed. If someone can do that, please open a PR. thanks.
+Usage: `python3 mremoteng_decrypt.py [-f FILE | -s STRING] [-p CUSTOM_PASSWORD]`
 
 ## Where's the file?
 
