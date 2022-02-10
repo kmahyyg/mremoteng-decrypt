@@ -14,7 +14,7 @@ org.bouncycastle
 
 ## Python Script
 
-Usage: `python3 mremoteng_decrypt.py [-f FILE | -s STRING] [-p CUSTOM_PASSWORD]`
+Usage: `python3 mremoteng_decrypt.py [-rf REALFILE| -f FILE | -s STRING] [-p CUSTOM_PASSWORD]`
 
 ## Where's the file?
 
