@@ -1,6 +1,14 @@
 # mRemoteNG Decrypt
 
-Use for Decrypt mRemoteNG v1.75+ Config. For v1.74 and lower, use Python version with `_legacy` suffix.
+# Python Version
+
+Usage: `python3 mremoteng_decrypt.py [-f FILE | -s STRING | -rf XML_FILE] [-p CUSTOM_PASSWORD] [-L IS_LEGACY]`
+
+If version < v1.75, make sure you specify `-L true`.
+
+# Java Version
+
+Use for Decrypt mRemoteNG v1.75+ Config. 
 
 Usage: `java -jar <JAR FILE> <ENCRYPTED TEXT> [Custom Password]`
 
@@ -11,10 +19,6 @@ The custom password is in: `%appdata/mRemoteNg/<Most recently modified folder>/U
 org.apache.commons.codec
 
 org.bouncycastle
-
-## Python Script
-
-Usage: `python3 mremoteng_decrypt.py [-f FILE | -s STRING] [-p CUSTOM_PASSWORD]`
 
 ## Where's the file?
 
