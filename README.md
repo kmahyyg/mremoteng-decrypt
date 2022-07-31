@@ -1,6 +1,6 @@
 # mRemoteNG Decrypt
 
-Use for Decrypt mRemoteNG v1.76 Config.
+Use for Decrypt mRemoteNG v1.75+ Config. For v1.74 and lower, use Python version with `_legacy` suffix.
 
 Usage: `java -jar <JAR FILE> <ENCRYPTED TEXT> [Custom Password]`
 
